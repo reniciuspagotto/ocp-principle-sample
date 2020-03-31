@@ -9,7 +9,7 @@ namespace OpenClosedPrincipleSample.Solution
             // Aplica descontro de 10%
             // Realiza o pagamento
 
-            return Guid.NewGuid().ToString();
+            return TransactionNumber = Guid.NewGuid().ToString();
         }
     }
 }

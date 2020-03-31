@@ -8,7 +8,7 @@ namespace OpenClosedPrincipleSample.Solution
         {
             // Realiza o pagamento
 
-            return Guid.NewGuid().ToString();
+            return TransactionNumber = Guid.NewGuid().ToString();
         }
     }
 }
